@@ -19,5 +19,5 @@ var express = require('express'),
 	app.post('/api/meetups', meetupsController.create);
 
 	app.listen(3000, function(){
-		console.log('Im Listening...');
+		console.log('We are Listening...');
 	});
